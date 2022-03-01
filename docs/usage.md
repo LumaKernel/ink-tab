@@ -56,9 +56,9 @@ class TabExample extends Component {
       <Box flexDirection="column">
         <Box>
           <Text>
-            {this.state.activeTab === 'foo' && 'Selected tab is "foo"'}
-            {this.state.activeTab === 'bar' && 'Selected tab is "bar"'}
-            {this.state.activeTab === 'baz' && 'Selected tab is "baz"'}
+            {this.state.activeTabName === 'foo' && 'Selected tab is "foo"'}
+            {this.state.activeTabName === 'bar' && 'Selected tab is "bar"'}
+            {this.state.activeTabName === 'baz' && 'Selected tab is "baz"'}
           </Text>
         </Box>
 
